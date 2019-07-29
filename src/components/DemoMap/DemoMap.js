@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 import Drivers from '../../api/Drivers';
+import Slider from '@material-ui/core/Slider';
 
 class DemoMap extends Component {
 
@@ -10,12 +11,12 @@ class DemoMap extends Component {
 
         this.state = {
             drivers: [],
-            count: 10
+            count: 30
         }
 
     }
 
-    displayMarkers = () => {
+    displayDrivers = () => {
         return this.state.drivers.map((drivers, index) => {
             return <Marker key={index} id={index} position={{
                 lat: drivers.location.latitude,
@@ -38,30 +39,48 @@ class DemoMap extends Component {
 
 
 
-        render()   {
+    render()   {
         const mapStyles = {
             width: '100%',
             height: '100%',
         };
-
+        const {count} = this.state;
         const initialLatitude = 51.5049375;
         const initialLongitude = -0.0964509;
+
         return (
-            <Map
-                google={this.props.google}
-                defaultZoom={15}
-                style={mapStyles}
-                initialCenter={{lat: initialLatitude, lng: initialLongitude}}
+            <div>
+                <Map
+                    google={this.props.google}
+                    defaultZoom={15}
+                    style={mapStyles}
+                    initialCenter={{lat: initialLatitude, lng: initialLongitude}}
 
-            >
-                <Marker position={{
-                    lat: initialLatitude,
-                    lng: initialLongitude
-                }}/>
+                >
+                    <Marker position={{
+                        lat: initialLatitude,
+                        lng: initialLongitude
+                    }}/>
 
-                {this.displayMarkers()}
+                    {this.displayDrivers()}
+                    <div >
+                        <Slider
+                            defaultValue={count}
+                            step={1}
+                            marks
+                            min={1}
+                            max={50}
+                            // value={this.state.count}
+                            onChangeCommitted={(e, value) => {
 
-            </Map>
+                               this.setState({count: value });
+                                this.componentDidMount();
+                            }}
+                        />
+                    </div>
+                </Map>
+
+            </div>
         );
     }
 
