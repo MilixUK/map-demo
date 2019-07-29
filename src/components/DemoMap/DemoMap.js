@@ -9,13 +9,13 @@ class DemoMap extends Component {
         super(props);
 
         this.state = {
-            drivers: []
+            drivers: [],
+            count: 10
         }
 
     }
 
     displayMarkers = () => {
-        console.log(this.state.drivers);
         return this.state.drivers.map((drivers, index) => {
             return <Marker key={index} id={index} position={{
                 lat: drivers.location.latitude,
@@ -28,7 +28,7 @@ class DemoMap extends Component {
     componentDidMount() {
         const x = 51.5049375;
         const y =  -0.0964509;
-        const count = 8;
+        const {count} = this.state;
 
         Drivers.getDriversList(x, y, count).then(response => {
             this.setState({drivers: response.data.drivers});
