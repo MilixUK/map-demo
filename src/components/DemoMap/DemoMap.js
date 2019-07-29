@@ -46,7 +46,7 @@ class DemoMap extends Component {
 
 
     render()   {
-        const mapStyles = {
+        const mapStyle = {
             width: '100%',
             height: '100%',
         };
@@ -60,7 +60,7 @@ class DemoMap extends Component {
                 <Map
                     google={this.props.google}
                     defaultZoom={15}
-                    style={mapStyles}
+                    style={mapStyle}
                     initialCenter={{lat: initialLatitude, lng: initialLongitude}}
 
                 >
