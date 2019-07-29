@@ -16,12 +16,18 @@ class DemoMap extends Component {
 
     }
 
+
     displayDrivers = () => {
+        const icon = { url: 'https://img.icons8.com/color/48/000000/taxi.png', scaledSize: { width: 32, height: 32 } };
+        console.log(icon);
         return this.state.drivers.map((drivers, index) => {
             return <Marker key={index} id={index} position={{
                 lat: drivers.location.latitude,
                 lng: drivers.location.longitude
-            }} />
+                }}
+               icon = {icon}
+
+            />
 
         })
     };
@@ -47,6 +53,7 @@ class DemoMap extends Component {
         const {count} = this.state;
         const initialLatitude = 51.5049375;
         const initialLongitude = -0.0964509;
+
 
         return (
             <div>
