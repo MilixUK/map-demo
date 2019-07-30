@@ -1,4 +1,4 @@
-#Splyt challenge - REACT map
+# Splyt challenge - REACT map
 
 ## How to run it
 * Ensure that you have node and npm installed
