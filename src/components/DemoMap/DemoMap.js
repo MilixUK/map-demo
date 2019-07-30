@@ -3,16 +3,12 @@ import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 import Drivers from '../../api/Drivers';
 import Slider from '@material-ui/core/Slider';
 
-
-
 class DemoMap extends Component {
 
-
-        state = {
+    state = {
             drivers: [],
             count: 30
-        };
-
+    };
 
     displayDrivers = () => {
         const x = 51.5049375;
@@ -32,6 +28,12 @@ class DemoMap extends Component {
         const mapStyle = {
             width: '100%',
             height: '100%',
+        };
+        const sliderStyle = {
+            position: 'fixed',
+            bottom: '0',
+            width: '100%',
+            backgroundColor: '#c2edb1'
         };
         const {count, drivers} = this.state;
         const initialLatitude = 51.5049375;
@@ -58,11 +60,9 @@ class DemoMap extends Component {
                                         lat: drivers.location.latitude,
                                         lng: drivers.location.longitude
                                     }}
-                                    icon = {icon}/>})
-                        }
-
+                                    icon = {icon}/>})}
                 </Map>
-                <div>
+                <div style={sliderStyle}>
                     <Slider
                         defaultValue={count}
                         step={1}
@@ -78,7 +78,6 @@ class DemoMap extends Component {
             </div>
         );
     }
-
 }
 
 export default GoogleApiWrapper({
