@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/components/DemoMap/DemoMap.js" line="14" />
-    <bookmark url="file://$PROJECT_DIR$/src/components/DemoMap/DemoMap.js" line="42" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c7469fa-ac05-485e-9c4e-54f1968c3bb2" name="Default Changelist" comment="">
+    <list default="true" id="3c7469fa-ac05-485e-9c4e-54f1968c3bb2" name="Default Changelist" comment="map with slider and taxis from api with custom icons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Icons/Diablo-512.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DemoMap/DemoMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DemoMap/DemoMap.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,41 +29,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/DemoMap/DemoMap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
+            <state relative-caret-position="140">
+              <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/api/Drivers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/api/api.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/Slider/Slider.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -86,6 +63,8 @@
     <findStrings>
       <find>zoom</find>
       <find>console</find>
+      <find>icon</find>
+      <find>Marker</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,6 +76,7 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/api/Drivers.js" />
         <option value="$PROJECT_DIR$/src/api/api.js" />
+        <option value="$PROJECT_DIR$/src/components/DemoMap/DemoMapa.js" />
         <option value="$PROJECT_DIR$/src/components/DemoMap/DemoMap.js" />
       </list>
     </option>
@@ -110,7 +90,38 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="map-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="map-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="map-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="map-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="map-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="map-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="map-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="map-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="DemoMap" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -123,6 +134,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Assets/Icons" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -148,7 +164,9 @@
       <updated>1564053010296</updated>
       <workItem from="1564053011396" duration="4335000" />
       <workItem from="1564388404301" duration="16659000" />
-      <workItem from="1564416829665" duration="2877000" />
+      <workItem from="1564416829665" duration="4498000" />
+      <workItem from="1564483510276" duration="1957000" />
+      <workItem from="1564485574223" duration="532000" />
     </task>
     <task id="LOCAL-00001" summary="map with marker">
       <created>1564407952747</created>
@@ -171,11 +189,32 @@
       <option name="project" value="LOCAL" />
       <updated>1564417539785</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="map with slider and taxis from api">
+      <created>1564419756677</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564419756677</updated>
+    </task>
+    <task id="LOCAL-00005" summary="map with slider and taxis from api with custom icons">
+      <created>1564420831797</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564420831797</updated>
+    </task>
+    <task id="LOCAL-00006" summary="map with slider and taxis from api with custom icons">
+      <created>1564421156882</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564421156882</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23871000" />
+    <option name="totallyTimeSpent" value="27981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1031" extended-state="6" />
@@ -184,7 +223,6 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -195,8 +233,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4997356" weight="0.3295325" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50185084" side_tool="true" weight="0.3295325" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49814913" visible="true" weight="0.3295325" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49814913" visible="true" weight="0.37400228" />
       <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -228,7 +267,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="map with marker" />
     <MESSAGE value="map with markers from API" />
-    <option name="LAST_COMMIT_MESSAGE" value="map with markers from API" />
+    <MESSAGE value="map with slider and taxis from api" />
+    <MESSAGE value="map with slider and taxis from api with custom icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="map with slider and taxis from api with custom icons" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
@@ -238,10 +279,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/google-maps-react/dist/components/Marker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="137" column="109" selection-start-line="137" selection-start-column="105" selection-end-line="137" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/Drivers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/google-maps-react/dist/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="68" column="51" lean-forward="true" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
+        <state relative-caret-position="221">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/Slider/Slider.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Assets/Icons/Diablo-512.png" />
+    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -255,31 +334,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/api.js">
+    <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/Slider/Slider.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/Drivers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/DemoMap/DemoMap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
+        <state relative-caret-position="140">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
