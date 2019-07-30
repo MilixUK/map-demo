@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
+import {Map, GoogleApiWrapper, Marker} from 'google-maps-react';
 import Drivers from '../../api/Drivers';
 import Slider from '@material-ui/core/Slider';
 
@@ -17,6 +17,8 @@ class DemoMap extends Component {
 
         Drivers.getDriversList(x, y, count).then(response => {
             this.setState({drivers: response.data.drivers});
+        }).catch(() => {
+            window.alert("Something went wrong. Please try again.");
         });
     };
 
